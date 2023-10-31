@@ -1,16 +1,5 @@
 #!/usr/bin/python3
-# Author - Tolulope Fakunle
-
 def print_last_digit(number):
-    print(abs(number) % 10, end="")
-    return (abs(number) % 10)#!/usr/bin/python3
-# Author - Tolulope Fakunle
-
-def print_last_digit(number):
-        print(abs(number) % 10, end="")
-            return (abs(number) % 10)#!/usr/bin/python3
-        # Author - Tolulope Fakunle
-
-        def print_last_digit(number):
-                print(abs(number) % 10, end="")
-                    return (abs(number) % 10)
+    number = abs(number) % 10
+    print(number, end="")
+    return number
